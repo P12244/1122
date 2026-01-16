@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>แผนกสารสนเทศ | วิทยาลัยเทคนิคขอนแก่น</title>
+    <!-- Google Fonts: Sarabun (Standard for Thai official documents) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header class="main-header">
+    <div class="container header-content">
+        <div class="logo-area">
+            <div class="college-logo">
+                <img src="p/3.png" alt="โลโก้วิทยาลัยเทคนิคขอนแก่น">
+            </div>
+            <div class="logo-text">
+                <h1>แผนกสารสนเทศ</h1>
+                <p>วิทยาลัยเทคนิคขอนแก่น</p>
+            </div>
+        </div>
+        <div class="contact-info-top d-none-mobile">
+            <span><i class="fas fa-phone"></i> 043 221 290</span>
+            <span><i class="fas fa-envelope"></i> info@kktc.ac.th</span>
+        </div>
+    </div>
+</header>
+
+
+    <!-- Navigation Menu -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <div class="menu-toggle" id="mobile-menu">
+                <i class="fas fa-bars"></i>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home" class="active">หน้าแรก</a></li>
+                <li><a href="#about">เกี่ยวกับแผนก</a></li>
+                <li><a href="#curriculum">หลักสูตร / สาขาวิชา</a></li>
+                <li><a href="#projects">ผลงานนักศึกษา</a></li>
+                <li><a href="#contact">ติดต่อเรา</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero" style="background-image: linear-gradient(rgba(0, 51, 102, 0.8), rgba(0, 51, 102, 0.8)), url('p/2.jpg');">
+        <div class="container hero-content">
+            <h2>ยินดีต้อนรับสู่ แผนกเทคโนโลยีสารสนเทศ</h2>
+            <p>มุ่งเน้นการสร้างบุคลากรสายอาชีพที่มีความเชี่ยวชาญด้านดิจิทัลและเทคโนโลยี เพื่อก้าวสู่ตลาดแรงงานในยุคเศรษฐกิจดิจิทัลอย่างยั่งยืน</p>
+            <div class="hero-btns">
+                <a href="#curriculum" class="btn btn-primary">ดูหลักสูตร</a>
+                <a href="#about" class="btn btn-outline">รู้จักเรามากขึ้น</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section about-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>เกี่ยวกับแผนก</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="about-grid">
+                <div class="about-text">
+                    <h3>ประวัติและภารกิจ</h3>
+                    <p>แผนกสารสนเทศ วิทยาลัยเทคนิคขอนแก่น มุ่งมั่นพัฒนาการจัดการเรียนการสอนในสายวิชาชีพเทคโนโลยีสารสนเทศ เพื่อผลิตกำลังคนที่มีคุณภาพ มีคุณธรรม และมีทักษะทางวิชาชีพที่ทันสมัยตามมาตรฐานสากล</p>
+                    <p>เรามุ่งเน้นการสร้างเสริมทักษะการเรียนรู้ในศตวรรษที่ 21 การพัฒนาความคิดสร้างสรรค์ และการแก้ปัญหาด้วยเทคโนโลยีคอมพิวเตอร์และดิจิทัลที่สอดคล้องกับความต้องการของสถานประกอบการในปัจจุบัน</p>
+                    <ul class="mission-list">
+                        <li><i class="fas fa-check-circle"></i> ผลิตช่างเทคนิคและนักเทคโนโลยีสารสนเทศที่มีคุณภาพ</li>
+                        <li><i class="fas fa-check-circle"></i> ส่งเสริมการวิจัยและนวัตกรรมด้านคอมพิวเตอร์</li>
+                        <li><i class="fas fa-check-circle"></i> บริการวิชาการสู่สังคมและชุมชนอย่างต่อเนื่อง</li>
+                    </ul>
+                </div>
+                <div class="about-image">
+                    <img src="p/5.jpg" alt="Learning Atmosphere" class="img-responsive rounded">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Curriculum Section -->
+    <section id="curriculum" class="section curriculum-section bg-light">
+        <div class="container">
+            <div class="section-title">
+                <h2>หลักสูตร / การเรียนการสอน</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="curriculum-grid">
+                <!-- การเขียนโปรแกรม -->
+                <div class="curriculum-card" role="button" tabindex="0"
+                     data-title="การเขียนโปรแกรม"
+                     data-description="หลักสูตรมุ่งสอนการพัฒนาซอฟต์แวร์ ครอบคลุมโครงสร้างข้อมูล อัลกอริทึม และการสร้างโปรเจกต์ด้วยภาษา Java, Python, C#"
+                     data-skills="การเขียนโปรแกรม, การวิเคราะห์ปัญหา, การพัฒนาโปรเจกต์, การทดสอบซอฟต์แวร์"
+                     data-career="เจ้าหน้าที่พัฒนาซอฟต์แวร์, นักพัฒนาแอปพลิเคชัน, โปรแกรมเมอร์สายธุรกิจ"
+                     data-img="p/33.jpg"
+                     data-img-alt="ภาพการเรียนการสอนการเขียนโปรแกรม">
+                    <div class="curriculum-img-wrapper">
+                        <img src="it-curriculum-1.png" alt="Programming Icon">
+                    </div>
+                    <div class="curriculum-content">
+                        <h3>การเขียนโปรแกรม</h3>
+                        <p>ศึกษาการพัฒนาซอฟต์แวร์ด้วยภาษา Java, Python, C# และการทำโปรเจกต์เชิงธุรกิจ</p>
+                    </div>
+                </div>
+
+                <!-- การพัฒนาเว็บไซต์ -->
+                <div class="curriculum-card" role="button" tabindex="0"
+                     data-title="การพัฒนาเว็บไซต์"
+                     data-description="หลักสูตรเน้นการออกแบบและพัฒนาเว็บสมัยใหม่ (HTML/CSS/JS), Frameworks และการดูแลประสบการณ์ผู้ใช้ (UX/UI) พร้อมเครื่องมือฝึกปฏิบัติ"
+                     data-skills="HTML/CSS, JavaScript, Responsive Design, UX/UI, Frameworks"
+                     data-career="นักพัฒนาเว็บไซต์, Front-end Developer, Web Designer, Full-stack Junior"
+                     data-img="p/654.jpeg"
+                     data-img-alt="ภาพการสอนการพัฒนาเว็บไซต์">
+                    <div class="curriculum-img-wrapper">
+                        <img src="it-curriculum-2.png" alt="Web Development Icon">
+                    </div>
+                    <div class="curriculum-content">
+                        <h3>การพัฒนาเว็บไซต์</h3>
+                        <p>เรียนรู้วิธีการออกแบบและพัฒนาเว็บไซต์สมัยใหม่ รองรับการแสดงผลทุกหน้าจอ</p>
+                    </div>
+                </div>
+
+                <!-- ระบบฐานข้อมูลและเครือข่าย -->
+                <div class="curriculum-card" role="button" tabindex="0"
+                     data-title="ระบบฐานข้อมูลและเครือข่าย"
+                     data-description="หลักสูตรเจาะลึกฐานข้อมูลเชิงสัมพันธ์ (SQL), การออกแบบฐานข้อมูล, การบริหารระบบ และพื้นฐานเครือข่าย/ความปลอดภัย"
+                     data-skills="ฐานข้อมูล SQL, การออกแบบ ER, การจัดการเซิร์ฟเวอร์, พื้นฐานเครือข่ายและความปลอดภัย"
+                     data-career="ผู้ดูแลฐานข้อมูล, เจ้าหน้าที่เครือข่าย, System Administrator, Database Analyst"
+                     data-img="p/ตัวอย่างการทำฐานข้อมูลรูปแบบต่าง-ๆ.jpg"
+                     data-img-alt="ภาพการสอนระบบฐานข้อมูลและเครือข่าย">
+                    <div class="curriculum-img-wrapper">
+                        <img src="it-curriculum-3.png" alt="Database & Networking Icon">
+                    </div>
+                    <div class="curriculum-content">
+                        <h3>ระบบฐานข้อมูลและเครือข่าย</h3>
+                        <p>เจาะลึกการจัดการฐานข้อมูล SQL และการติดตั้งระบบเครือข่ายความปลอดภัยสูง</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Student Projects Section -->
+    <section id="projects" class="section projects-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>ผลงานนักศึกษา</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="projects-grid">
+                <div class="project-item" role="button" tabindex="0"
+                     data-title="บ้านอัจฉริยะ"
+                     data-short="บ้านอัจฉริยะ"
+                     data-desc="บ้านอัจฉริยะ (Smart Home) เป็นการพัฒนาระบบควบคุมและตรวจสอบอุปกรณ์ภายในบ้านโดยใช้ไมโครคอนโทรลเลอร์ร่วมกับเซนเซอร์ต่าง ๆ เพื่อควบคุมการทำงานของอุปกรณ์ไฟฟ้าและระบบความปลอดภัย สามารถทำงานแบบอัตโนมัติและรองรับการต่อยอดด้วยระบบสารสนเทศสมัยใหม่"
+                     data-tech="Arduino / ESP32, Sensors, Relay Module, IoT, Arduino IDE"
+                     data-img="p/8.3.jpg"
+                     data-img-alt="1">
+                    <div class="project-img-wrapper">
+                        <img src="p/8.5.jpg" alt="Student Project 2">
+                        <div class="project-overlay">
+                            <span>ดูรายละเอียด</span>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h4>บ้านอัจฉริยะ  </h4>
+                        <p>บ้านอัจฉริยะ (Smart Home) เป็นระบบควบคุมอุปกรณ์ภายในบ้านด้วยเทคโนโลยีอัตโนมัติ เพื่อเพิ่มความสะดวกและความปลอดภัย</p>
+                    </div>
+                </div>
+                <div class="project-item" role="button" tabindex="0"
+                     data-title="ระบบตรวจจับการเคลื่อนไหวและแจ้งเตือนผ่าน Telegram Messenger"
+                     data-short="ระบบตรวจจับการเคลื่อนไหวและแจ้งเตือนผ่าน Telegram Messenger"
+                     data-desc="ระบบตรวจจับการเคลื่อนไหวและแจ้งเตือนผ่าน Telegram Messenger พัฒนาโดยใช้เซนเซอร์ตรวจจับความเคลื่อนไหวร่วมกับระบบประมวลผล เมื่อเกิดการเคลื่อนไหวระบบจะส่งข้อมูลแจ้งเตือนไปยังผู้ใช้งานผ่าน Telegram Messenger แบบเรียลไทม์ สามารถประยุกต์ใช้ในงานด้านความปลอดภัยและระบบเฝ้าระวังอัจฉริยะ"
+                     data-tech="ESP32, PIR Motion Sensor, Arduino IDE, Telegram Bot API, Wi-Fi"
+                     data-img="p/8.jpg"
+                     data-img-alt="ภาพแอปจองที่จอดรถ">
+                    <div class="project-img-wrapper">
+                        <img src="p/7.jpg" alt="Student Project 2">
+                        <div class="project-overlay">
+                            <span>ดูรายละเอียด</span>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h4>ระบบตรวจจับการเคลื่อนไหวและแจ้งเตือนผ่าน Telegram Messenger</h4>
+                        <p>ระบบตรวจจับการเคลื่อนไหวอัตโนมัติ พร้อมแจ้งเตือนผู้ใช้งานผ่าน Telegram Messenger แบบเรียลไทม์ เพื่อเพิ่มความปลอดภัยและการเฝ้าระวัง</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="container">
+            <div class="projects-grid">
+                <div class="project-item" role="button" tabindex="0"
+                     data-title="การพัฒนาเกม IQ Room ด้วยแพลตฟอร์ม Roblox Studio"
+                     data-short="การพัฒนาเกม IQ Room ด้วยแพลตฟอร์ม Roblox Studio"
+                     data-desc="การพัฒนาเกม IQ Room ด้วยแพลตฟอร์ม Roblox Studio เป็นการสร้างเกมแนวปริศนา (Puzzle Game) โดยใช้เครื่องมือ Roblox Studio และภาษา Lua ในการออกแบบฉาก ระบบเกม และกลไกการเล่น เพื่อส่งเสริมทักษะการคิดวิเคราะห์ การแก้ปัญหา และการเรียนรู้ผ่านเกม"
+                     data-tech="Roblox Studio, Lua, Roblox Platform"
+                     data-img="p/7.1.jpg"
+                     data-img-alt="ภาพระบบจัดการห้องสมุดออนไลน์">
+                    <div class="project-img-wrapper">
+                        <img src="p/8.1.jpg" alt="Student Project 1">
+                        <div class="project-overlay">
+                            <span>ดูรายละเอียด</span>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h4>การพัฒนาเกม IQ Room ด้วยแพลตฟอร์ม Roblox Studio</h4>
+                        <p>การพัฒนาเกม IQ Room ด้วย Roblox Studio เป็นเกมแนวปริศนาที่มุ่งพัฒนาทักษะการคิด วิเคราะห์ และการแก้ปัญหาของผู้เล่น</p>
+                    </div>
+                </div>
+                <div class="project-item" role="button" tabindex="0"
+                     data-title="ระบบตรวจจับการสั่นสะเทือนภายใน อาคารด้วย เซ็นเซอร์SW420"
+                     data-short="ระบบตรวจจับการสั่นสะเทือนภายใน อาคารด้วย เซ็นเซอร์SW420"
+                     data-desc="ระบบตรวจจับการสั่นสะเทือนภายในอาคารด้วยเซ็นเซอร์ SW420 พัฒนาโดยใช้เซ็นเซอร์ตรวจจับแรงสั่นสะเทือนร่วมกับไมโครคอนโทรลเลอร์ในการประมวลผลข้อมูล เมื่อเกิดแรงสั่นสะเทือนเกินค่าที่ตั้งไว้ ระบบจะสามารถแจ้งเตือนผู้ใช้งานได้อย่างรวดเร็ว เหมาะสำหรับประยุกต์ใช้ในงานด้านความปลอดภัยและการเฝ้าระวังอาคาร"
+                     data-tech="SW420 Vibration Sensor, Arduino UNO / ESP32, Arduino IDE, C/C++"
+                     data-img="p/8.91.jpg"
+                     data-img-alt="ภาพแอปจองที่จอดรถ">
+                    <div class="project-img-wrapper">
+                        <img src="p/8.9.jpg" alt="Student Project 2">
+                        <div class="project-overlay">
+                            <span>ดูรายละเอียด</span>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h4>ระบบตรวจจับการสั่นสะเทือนภายใน อาคารด้วย เซ็นเซอร์SW420</h4>
+                        <p>ระบบตรวจจับการสั่นสะเทือนภายในอาคารโดยใช้เซ็นเซอร์ SW420 เพื่อตรวจจับความผิดปกติและเพิ่มความปลอดภัย</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Project Details Modal -->
+    <div id="project-modal" class="modal" aria-hidden="true" role="dialog" aria-labelledby="project-modal-title">
+        <div class="modal-backdrop" id="project-modal-backdrop"></div>
+        <div class="modal-panel project-modal-panel" role="document">
+            <button class="modal-close project-modal-close" id="project-modal-close" aria-label="ปิด">×</button>
+            <h3 id="project-modal-title">ชื่อผลงาน</h3>
+            <img class="project-modal-img" src="" alt="" />
+            <div class="modal-body">
+                <p class="project-modal-short" style="font-weight:600;"></p>
+                <p class="project-modal-desc"></p>
+                <h4>เทคโนโลยีที่ใช้</h4>
+                <p class="project-modal-tech"></p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact-section bg-dark text-white">
+        <div class="container">
+            <div class="section-title">
+                <h2>ติดต่อเรา</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>ที่อยู่</h4>
+                            <p>วิทยาลัยเทคนิคขอนแก่น (แผนกสารสนเทศ)<br>67 ถ. ศรีจันทร์ ตำบลในเมือง อำเภอเมืองขอนแก่น ขอนแก่น 40000, Khon Kaen, Thailand, Khon Kaen</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>โทรศัพท์</h4>
+                            <p>043 221 290 (ในวันและเวลาราชการ)</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-globe"></i>
+                        <div>
+                            <h4>เว็บไซต์วิทยาลัย</h4>
+                            <p>www.kktc.ac.th</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-map">
+    <iframe
+        src="https://www.google.com/maps?q=วิทยาลัยเทคนิคขอนแก่น&output=embed"
+        width="100%"
+        height="300"
+        style="border:0;"
+        allowfullscreen=""
+        loading="lazy">
+    </iframe>
+</div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Course Details Modal -->
+    <div id="course-modal" class="modal" aria-hidden="true" role="dialog" aria-labelledby="course-modal-title">
+        <div class="modal-backdrop" id="modal-backdrop"></div>
+        <div class="modal-panel" role="document">
+            <button class="modal-close" id="modal-close" aria-label="ปิด">×</button>
+            <h3 id="course-modal-title">ชื่อหลักสูตร</h3>
+            <!-- Course image (populated via JS). Alt text provided from card data for accessibility -->
+            <img class="modal-img" src="" alt="" />
+            <div class="modal-body">
+                <p class="modal-desc"></p>
+                <h4>ทักษะที่นักศึกษาจะได้รับ</h4>
+                <p class="modal-skills"></p>
+                <h4>แนวทางการประกอบอาชีพ / ตัวอย่างผลงาน</h4>
+                <p class="modal-career"></p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 แผนกสารสนเทศ วิทยาลัยเทคนิคขอนแก่น | พัฒนาโดยนักศึกษาเพื่อการศึกษา</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
